@@ -1,0 +1,33 @@
+
+.empDashCandidatesTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    h2{
+        margin: 0px;
+    }
+}
+.empDashCandidatesTabsCustom{
+    display: block !important;
+}
+.empDashCandidatesTabs {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    gap: 20px;
+    margin-bottom: 10px;
+    a {
+        color: #BFBFBF;
+        padding: 0px 2px;
+        border-bottom: 1px solid transparent;
+    }
+    a:hover {
+        color: #252525;
+    }
+    .active {
+        color: #252525;
+        border-color: #FFAD3D;
+    }
+}
